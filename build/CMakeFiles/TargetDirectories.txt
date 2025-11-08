@@ -1,3 +1,0 @@
-/home/micah/cppProjects2025/RockPaperScissor/build/CMakeFiles/RockPaperScissor.dir
-/home/micah/cppProjects2025/RockPaperScissor/build/CMakeFiles/edit_cache.dir
-/home/micah/cppProjects2025/RockPaperScissor/build/CMakeFiles/rebuild_cache.dir

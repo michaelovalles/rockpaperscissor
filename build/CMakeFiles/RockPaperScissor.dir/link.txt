@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/RockPaperScissor.dir/main.cxx.o -o RockPaperScissor 
