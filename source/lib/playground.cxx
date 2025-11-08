@@ -9,9 +9,7 @@
 #include "menu.cxx"
 #include "randomNumGen.cxx"
 void playground()
-{//error occurs 
-//free(): double free detected in tcache 2 Aborted (core dumped)
-//after loop doesnt continue.
+{
 for (int i = 0; i < 3; i++)
 {
 std::string input = stringInput();
@@ -23,10 +21,6 @@ std::string botInput = bot(randGen());
 playerOne -> printName();
 collision(playerOne, playerTwo);
 
-//delete playerOne;
-//delete playerTwo;
-//playerOne = nullptr;
-//playerTwo = nullptr;
 }
 
 }
