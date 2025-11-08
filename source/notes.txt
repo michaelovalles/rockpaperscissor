@@ -1,0 +1,45 @@
+10.24.25.
+---------
+Adding notes to projects to keep track of what I did and what is needed.
+
+As of today,
+CMakelists only contains the minimum to connect to main.
+
+a collection of programs were created:
+
+capitalizationChange.cxx =  changes letters toLowercase(), and toUppercase().
+------------------------
+collision.cxx = accepts objects and checks collision.
+------------- players chooses objects between (rock, paper, and scissor)
+and checks collision/outcome.or) interacts. results in outcome printed.
+
+character.cxx = polymorphism of rock, paper, or scissor.
+-------------
+
+menu.cxx = takes in input and of choice, results in action.
+--------
+
+input.cxx = Request input and returns input using toLowercase().
+---------
+
+idea to work on:
+create a bot that chooses at random.
++ randomNumGen() = chooses (1,2,3) randomly. 
+
+created:
+
+randomNumGen.cxx = creates a random number between 1-3.
+----------------
+
+create a bot that uses random number to make choice.
+done. 
+bot.cxx = takes in random number, returns string (rock, paper, scissor).
+-------
+
+create a playground = gathers all componets to play the game 
+FINISH POINTERS IN PLAYGROUND()
+10.25.25. Clocking In: 
+pointer keeps deleting before use, im thinking of making original pointer a unique_ptr, or putting the whole project in a class in which i create the pointer in a constructer and delete in a deconstructer.. not sure yet, but my be ideal.
+In menu.cxx, which release pointer I with the help of google changed the pointer passed as a static variable,
+I changed the pointers to a static varible, which were recieved by a pointer after return, This seems to have fixed the free()
+double free error. (clocking out 4:55am 10.26.25).
